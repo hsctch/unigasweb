@@ -171,7 +171,7 @@ jQuery(document).ready(function($) {
 				media    : {}
 			},
 			afterLoad   : function() {
-				this.title = this.group.length > 1 ? 'Image ' + ( this.index + 1 ) + ' of ' + this.group.length + ( this.title ? ' - ' + this.title : '' ) : this.title;
+				this.title = this.group.length > 1 ? 'Imagen ' + ( this.index + 1 ) + ' de ' + this.group.length + ( this.title ? ' - ' + this.title : '' ) : this.title;
 			}
 		});
 
