@@ -2443,7 +2443,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 /* ---------------------------------------------------------------------- */
 
 #footer {
-	background: rgba(19, 122, 210, 1);
+	background: #3a3a3a;
 	color: #868686;
 	margin-top: 80px;
 	padding: 35px 0 30px;
