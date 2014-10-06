@@ -559,7 +559,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 						#main-nav ul ul a {
 							border: 0;
-							border-bottom: 1px solid #252525;
+							border-bottom: 1px solid #0f6dbe;
 							border-top: 1px solid #4c4c4c;
 							color: #fff;
 							display: block;
@@ -3237,7 +3237,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 						#main-nav ul ul li:last-child > a { border-bottom: none; }
 
 						#main-nav ul ul ul {
-							border-bottom: 1px solid #0d67b4;
+							border-bottom: 1px solid #252525;
 							-webkit-box-shadow: none;
 							   -moz-box-shadow: none;
 									box-shadow: none;
