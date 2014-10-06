@@ -5,7 +5,7 @@
 /* ---------------------------------------------------------------------- */
 
 // The email address where all contact form messages are sent (inbox)
-$your_email_address = 'sandbox@mymail.fi';
+$your_email_address = 'dacuna@hsctch.com';
 
 /* ---------------------------------------------------------------------- */
 /*	Latest Tweets
