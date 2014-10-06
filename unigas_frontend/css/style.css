@@ -27,7 +27,7 @@ dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,blockquote,article,p { 
 
 body {
 	background: #fff;
-	border-top: 6px solid rgba(19, 122, 210, 0.6);;
+	border-top: 6px solid rgba(19, 122, 210, 1);
 	color: #909090;
 	font: 11px/1.7 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h3, h4, h5 { font-weight: 600; }
 
 a, a > * {
-	color: rgba(19, 122, 210, 0.6);;
+	color: rgba(19, 122, 210, 1);
 	text-decoration: none;
 	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
 	   -moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
@@ -107,7 +107,7 @@ blockquote {
 }
 
 	.button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
-		background: rgba(19, 122, 210, 0.6);;
+		background: rgba(19, 122, 210, 1);
 		color: #fff;
 	}
 
@@ -123,7 +123,7 @@ blockquote {
 
 	.button.no-bg {
 		background: none;
-		color: rgba(19, 122, 210, 0.6);;
+		color: rgba(19, 122, 210, 1);
 		padding: 0;
 	}
 
@@ -173,7 +173,7 @@ blockquote {
 }
 
 	.dropcap.dark {
-		background: rgba(19, 122, 210, 0.6);;
+		background: rgba(19, 122, 210, 1);
 		color: #fff;
 	}
 
@@ -481,7 +481,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				#main-nav a {
 					border-bottom: 1px solid transparent;
 					border-top: 6px solid transparent;
-					color: rgba(19, 122, 210, 0.6);;
+					color: rgba(19, 122, 210, 1);
 					font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 					font-size: 12px;
 					font-weight: 800;
@@ -542,7 +542,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				}
 
 				#main-nav ul ul {
-					background: rgba(19, 122, 210, 0.6);;
+					background: rgba(19, 122, 210, 1);
 					-webkit-box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
 					   -moz-box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
 							box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
@@ -1060,7 +1060,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 			}
 
 				.extended-pricing-table .header {
-					background: rgba(19, 122, 210, 0.6);;
+					background: rgba(19, 122, 210, 1);
 					color: #fff;
 					min-height: 110px;
 				}
@@ -1295,7 +1295,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				-webkit-box-shadow: 1px 0 0 #fff inset, 0 1px 0 0 #fff inset;
 				   -moz-box-shadow: 1px 0 0 #fff inset, 0 1px 0 0 #fff inset;
 						box-shadow: 1px 0 0 #fff inset, 0 1px 0 0 #fff inset;
-				color: rgba(19, 122, 210, 0.6);;
+				color: rgba(19, 122, 210, 1);
 				cursor: pointer;
 				display: block;
 				float: left;
@@ -1333,7 +1333,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				.no-js .ss-slider  a > .slide-button:hover  { cursor: pointer; }
 				
 				.ss-slider .slide-button h5 {
-					color: rgba(19, 122, 210, 0.6);;
+					color: rgba(19, 122, 210, 1);
 					font: 700 14px/1.5 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 					margin: 0;
 				}
@@ -1348,7 +1348,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				}
 		
 				.ss-slider .slide-button .dropcap {
-					background: rgba(19, 122, 210, 0.6);;
+					background: rgba(19, 122, 210, 1);
 					-webkit-border-radius: 19px;
 					   -moz-border-radius: 19px;
 							border-radius: 19px;
@@ -2157,7 +2157,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 			width: auto !important;
 		}
 
-			#portfolio-items-filter a:hover { background: rgba(19, 122, 210, 0.6);; }
+			#portfolio-items-filter a:hover { background: rgba(19, 122, 210, 1); }
 
 #portfolio-items { margin: 0 -20px 40px 0; }
 
@@ -2206,7 +2206,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 	/* -------------------------------------------------- */
 
 	.project-title {
-		color: rgba(19, 122, 210, 0.6);;
+		color: rgba(19, 122, 210, 1);
 		font-size: 32px;
 		font-weight: 400;
 	}
@@ -2399,7 +2399,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 			#sidebar .tweets-feed li a, #footer .tweets-feed li a { color: #f15a23; }
 
-				#sidebar .tweets-feed li a:hover, #sidebar .tweets-feed .date a:hover { color: rgba(19, 122, 210, 0.6);; }
+				#sidebar .tweets-feed li a:hover, #sidebar .tweets-feed .date a:hover { color: rgba(19, 122, 210, 1); }
 
 			.tweets-feed .date { display: block; }
 
@@ -2409,7 +2409,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 					font-style: italic;
 				}
 
-				#sidebar .tweets-feed li a:hover { color: rgba(19, 122, 210, 0.6);; }
+				#sidebar .tweets-feed li a:hover { color: rgba(19, 122, 210, 1); }
 
 				#footer .tweets-feed li a:hover { color: #fff; }
 
@@ -2443,7 +2443,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 /* ---------------------------------------------------------------------- */
 
 #footer {
-	background: rgba(19, 122, 210, 0.6);;
+	background: rgba(19, 122, 210, 1);
 	color: #868686;
 	margin-top: 80px;
 	padding: 35px 0 30px;
@@ -2685,12 +2685,12 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 	#footer .button:hover, #footer input[type="submit"]:hover #footer input[type="reset"]:hover, #footer button:hover {
 		background: #ddd;
-		color: rgba(19, 122, 210, 0.6);;
+		color: rgba(19, 122, 210, 1);
 	}
 
 	#footer .button.no-bg { color: #ddd; }
 
-	#footer .button .arrow { background-color: rgba(19, 122, 210, 0.6);; }
+	#footer .button .arrow { background-color: rgba(19, 122, 210, 1); }
 
 	#footer blockquote { background-color: #464646;}
 
