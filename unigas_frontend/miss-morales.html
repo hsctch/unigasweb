@@ -2,7 +2,7 @@
 
 <!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
 <!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" ng-app="ResApp">  <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -15,6 +15,7 @@
 	
 	<!--[if !lte IE 6]><!-->
 		<link rel="stylesheet" href="css/style.css" media="screen" />
+		<link rel="stylesheet" href="css/custom.css" media="screen" />
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
 		
@@ -116,48 +117,14 @@
 
 		<div id="main">
 		
-			<div class="image-gallery-slider">
-
+			<div class="image-gallery-slider" ng-controller="MissMoralesController">
 				<ul>
-
-					<li>
-						<a href="img/placeholders/MISS-MORALES/1.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/1.jpg" alt="MISS MORALES">
+					<li ng-repeat="photo in photos">
+						<a href="img/placeholders/MISS-MORALES/{{photo.img}}" class="single-image" title="{{photo.title}}" rel="{{photo.rel}}">
+							<img src="img/placeholders/MISS-MORALES/{{photo.img}}" alt="{{photo.alt}}">
+							<span class="zoom">&nbsp;</span>
 						</a>
 					</li>
-
-					<li>
-						<a href="img/placeholders/MISS-MORALES/2.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/2.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-
-					<li>
-						<a href="img/placeholders/MISS-MORALES/3.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/3.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-					<li>
-						<a href="img/placeholders/MISS-MORALES/4.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/4.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-					<li>
-						<a href="img/placeholders/MISS-MORALES/5.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/5.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-					<li>
-						<a href="img/placeholders/MISS-MORALES/6.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/6.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-					<li>
-						<a href="img/placeholders/MISS-MORALES/7.jpg" class="single-image" title="Coronación de Miss Morales." rel="miss-morales">
-							<img src="img/placeholders/MISS-MORALES/7.jpg" alt="MISS MORALES">
-						</a>
-					</li>
-
 				</ul>
 				
 			</div><!-- end .image-gallery-slider -->
@@ -264,6 +231,8 @@
 	<script src="js/jquery.gmap.min.js"></script>
 	<script src="js/jquery.touchSwipe.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+	<script src="js/controllers.js"></script>
 <!--<![endif]-->
 </body>
 </html>
