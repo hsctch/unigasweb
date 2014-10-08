@@ -39,3 +39,15 @@ app.controller("MissTarapotoController", function($scope, $http) {
       console.log(data);
     });
 });
+
+app.controller("ResponsabilidadSocialController", function($scope, $http) {
+  $http.get('data/responsabilidad-social.json').
+    success(function(data, status, headers, config) {
+      $scope.icons = data;
+    }).
+    error(function(data, status, headers, config) {
+      console.log(data);
+    });
+
+  $scope.quantity = 7;
+});

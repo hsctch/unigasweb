@@ -1,0 +1,62 @@
+[
+	{
+		"url" : "miss-morales.html",
+		"img" : "portfolio-project-4th-1.jpg",
+		"title" : "MISS MORALES",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "aniversario-tarapoto.html",
+		"img" : "portfolio-project-4th-2.jpg",
+		"title" : "ANIVERSARIO DE TARAPOTO",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "feria-gastronomica.html",
+		"img" : "portfolio-project-4th-3.jpg",
+		"title" : "FERIA GASTRONOMICA",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "feria-gastronomica.html",
+		"img" : "portfolio-project-4th-4.jpg",
+		"title" : "MISS TARAPOTO 2013",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "evento-topbiz.html",
+		"img" : "portfolio-project-4th-5.jpg",
+		"title" : "EVENTO TOPBIZ",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "alto-mayo-nv.html",
+		"img" : "portfolio-project-4th-6.jpg",
+		"title" : "UNIGAS NVA CAJAMARCA",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "alto-mayo-n.html",
+		"img" : "portfolio-project-4th-7.jpg",
+		"title" : "UNIGAS NARANJILLO",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "unigas-fise.html",
+		"img" : "portfolio-project-4th-8.jpg",
+		"title" : "UNIGAS Y EL PROGRAMA FISE",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "chef-manolo.html",
+		"img" : "portfolio-project-4th-9.jpg",
+		"title" : "ANIVERSARIO DEL CHEF MANOLO",
+		"categories" : "Responsabilidad Social"
+	},
+	{
+		"url" : "caminata-cancer.html",
+		"img" : "portfolio-project-4th-10.jpg",
+		"title" : "CAMINATA LUCHA CONTRA EL CANCER",
+		"categories" : "Responsabilidad Social"
+	}
+]
