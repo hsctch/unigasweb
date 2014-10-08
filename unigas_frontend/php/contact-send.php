@@ -16,27 +16,27 @@ if( isset($_POST['name']) && empty($_POST['spam-check']) ) {
 	$input_message = strip_tags($_POST['message']);
 	
 	// We'll check and see if any of the required fields are empty
-	if( strlen($input_name) < 2 ) $error['name'] = 'Please enter your name.';
-	if( strlen($input_message) < 5 ) $error['message'] = 'Please leave a message.';
+	if( strlen($input_name) < 2 ) $error['name'] = 'Porfavor ingrese su nombre.';
+	if( strlen($input_message) < 5 ) $error['message'] = 'Porfavor deje un mensaje.';
 
 	// Make sure the email is valid
-	if( !filter_var($input_email, FILTER_VALIDATE_EMAIL) ) $error['email'] = 'Please enter a valid email address.';
+	if( !filter_var($input_email, FILTER_VALIDATE_EMAIL) ) $error['email'] = 'Porfavor ingrese un email correcto.';
 
 	// Set a subject & check if custom subject exist
-	$subject = "Message from $input_name";
+	$subject = "Mensaje de $input_name";
 	if( $input_subject ) $subject .= ": $input_subject";
 	
 	$message = "$input_message\n";
-	$message .= "\n---\nThis email was sent by contact form.";
+	$message .= "\n---\nEste correo ha sido enviado por el formulario de contacto.";
 
 	// Now check to see if there are any errors 
 	if( !$error ) {
 
 		// No errors, send mail using conditional to ensure it was sent
 		if( mail($your_email_address, $subject, $message, "From: $input_email") ) {
-			echo '<p class="success">Your email has been sent!</p>';
+			echo '<p class="success">Su correo fue enviado correctamente!</p>';
 		} else {
-			echo '<p class="error">There was a problem sending your email!</p>';
+			echo '<p class="error">Hubo un problema al enviar el correo!</p>';
 		}
 		
 	} else {
@@ -52,6 +52,6 @@ if( isset($_POST['name']) && empty($_POST['spam-check']) ) {
 	
 } else {
 
-	die('Direct access to this page is not allowed.');
+	die('El acceso está restringido.');
 
 }

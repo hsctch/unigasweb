@@ -2,13 +2,13 @@
 
 <!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
 <!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" ng-app="ResApp">  <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
-	<title>Contact Us - SmartStart</title>
+	<title>.:: UNIGAS | Contacto ::.</title>
 	
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -23,6 +23,8 @@
 		<link rel="stylesheet" href="css/video-js.min.css" media="screen" />
 
 		<link rel="stylesheet" href="css/audioplayerv1.min.css" media="screen" />
+
+		<link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
 	<!--<![endif]-->
 
 	<!--[if lte IE 6]>
@@ -34,64 +36,56 @@
 
 	<!-- HTML5 video player -->
 	<script src="js/video.min.js"></script>
-	<script>_V_.options.flash.swf = 'http://localhost/smartstart/js/video-js.swf';</script>
-<!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
+	<script>_V_.options.flash.swf = 'js/video-js.swf';</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+	<script src="js/controllers.js"></script>
+</head>
 <body>
 
 <header id="header" class="container clearfix">
 
 	<a href="index.html" id="logo">
-		<img src="img/logo.png" alt="SmartStart">
+		<img src="img/logo.png" alt="Unigas">
 	</a>
 
 	<nav id="main-nav">
 		
 		<ul>
 			<li>
-				<a href="index.html" data-description="All starts here">Home</a>
+				<a href="index.html" data-description="UNIGAS Inicio">Inicio</a>
+			</li>
+			<li>
+				<a href="#" data-description="UNIGAS Empresa">Nuestra Empresa</a>
 				<ul>
-					<li><a href="logos-slider.html">Logos Slider</a></li>
-					<li><a href="photos-slider.html">Photos Slider</a></li>
+					<li><a href="quienes-somos.html">Quiénes Somos</a></li>
+					<li><a href="historia.html">Historia</a></li>
+					<li><a href="mision-vision.html">Misión y Visión</a></li>
+					<li><a href="responsabilidad-social.html">Responsabilidad Social</a></li>
+					<li><a href="responsabilidad-ambiental.html">Responsabilidad Ambiental</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="elements.html" data-description="All the different stuff">Features</a>
+				<a href="#" data-description="UNIGAS Calidad">Servicios y Productos</a>
 				<ul>
-					<li><a href="about-us.html">About Us</a></li>
-					<li><a href="our-team.html">Our Team</a>
-						<ul>
-							<li><a href="we-are-hiring.html">We are hiring</a></li>
-						</ul>
-					</li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="pricing-tables.html">Pricing Tables</a></li>
-					<li><a href="columns.html">Columns</a></li>
-					<li><a href="#">Third Level Item</a>
-						<ul>
-							<li><a href="#">This is a simple example</a></li>
-							<li><a href="#">Of the third level</a></li>
-							<li><a href="#">Navigation item</a></li> 
-						</ul>
-					</li>
+					<li><a href="puntos-venta.html">Puntos de Venta</a></li>
+					<li><a href="reparto-domicilio.html">Reparto a Domicilio</a></li>
+					<li><a href="mantenimiento-cocina.html">Matenimiento de Cocina</a></li>
+					<li><a href="instalacion-mantenimiento.html">Instalación y Mantenimiento de Tantes</a></li>
+					<li><a href="balones.html">Balones</a></li>
+					<li><a href="granel.html">Gas a Granel</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="blog.html" data-description="What we think">Blog</a>
+				<a href="#" data-description="UNIGAS Servicio">Unigas Contigo</a>
 				<ul>
-					<li><a href="single-post.html">Single Post</a></li>
+					<li><a href="clientes.html">Clientes</a></li>
+					<li><a href="promociones.html">Promociones en Unigas</a></li>
+					<li><a href="comerciales.html">Comerciales de TV</a></li>
+					<li><a href="responsabilidad-social.html">Novedades</a></li>
 				</ul>
 			</li>
-			<li>
-				<a href="portfolio-4-columns.html" data-description="Work we are proud of">Portfolio</a>
-				<ul>
-					<li><a href="portfolio-2-columns.html">2 Columns</a></li>
-					<li><a href="portfolio-3-columns.html">3 Columns</a></li>
-					<li><a href="portfolio-4-columns.html">4 Columns</a></li>
-					<li><a href="single-project.html">Single Project</a></li>
-				</ul>
-			</li>
-			<li class="current">
-				<a href="contact-us.html" data-description="Enquire here">Contact</a>
+			<li  class="current">
+				<a href="contacto.html" data-description="UNIGAS Contigo">Contáctanos</a>
 			</li>
 		</ul>
 
@@ -105,65 +99,64 @@
 
 		<header class="page-header">
 		
-			<h1 class="page-title">We'd love to hear from you</h1>
+			<h1 class="page-title">Nos encantaría saber de usted</h1>
 			
 		</header><!-- end .page-header -->
 
 	</div><!-- end .container -->
 
 	<section id="map">
-		<p class="container">Something went wrong... Try to enable your JavaScript!</p>
+		<p class="container">Algo salió mal ... Trate de habilitar JavaScript!</p>
 	</section><!-- end #map -->
 
 	<div class="container clearfix">
 		
 		<div class="one-fourth">
 
-			<h3>Contact Info</h3>
+			<h3>Información de Contacto</h3>
 
-			<p>30 South Park Avenue<br/>
-			San Francisco, CA 94108<br/>
-			USA</p>
+			<p>Jr. Francisco Pizarro #860<br/>
+			Morales - San Martín - San Martín</p>
 
-				<p>Phone: (123) 456-7890<br/>
-				Fax: +08 (123) 456-7890<br/>
-				Email: contact@companyname.com<br/>
-				Web: companyname.com</p>
+				<p>Telf: (42) 52-2727 / (42) 52-6544<br/>
+				RPM: *239153<br/>
+				Email: contacto@unigas.com.pe<br/>
+				Web: unigas.com.pe</p>
 			
 		</div><!-- end .one-fourth -->
 		
 		<div class="three-fourth last">
 
-			<h3>Let's keep in touch</h3>
+			<h3>Póngase en contacto</h3>
 
 			<form action="php/contact-send.php" method="post" class="contact-form">
 			
 				<p class="input-block">
-					<label for="contact-name"><strong>Name</strong> (required)</label>
+					<label for="contact-name"><strong>Nombre</strong> (requerido)</label>
 					<input type="text" name="name" value="" id="contact-name" required>
 				</p>
 
 				<p class="input-block">
-					<label for="contact-email"><strong>Email</strong> (required)</label>
+					<label for="contact-email"><strong>Email</strong> (requerido)</label>
 					<input type="email" name="email" value="" id="contact-email" required>
 				</p>
 				
 				<p class="input-block">
-					<label for="contact-subject"><strong>Subject</strong></label>
+					<label for="contact-subject"><strong>Asunto</strong></label>
 					<input type="text" name="subject" value="" id="contact-subject">
 				</p>
 
 				<p class="textarea-block">
-					<label for="contact-message"><strong>Your Message</strong> (required)</label>
+					<label for="contact-message"><strong>Tu mensaje</strong> (requerido)</label>
 					<textarea name="message" id="contact-message" cols="88" rows="6" required></textarea>
 				</p>
 			
 				<div class="hidden">
-					<label for="contact-spam-check">Do not fill out this field:</label>
+					<label for="contact-spam-check">No escriba en este campo:</label>
 					<input name="spam-check" type="text" value="" id="contact-spam-check" />
 				</div>
 
-				<input type="submit" value="Submit">
+				<input type="submit" value="Enviar">
 
 				<div class="clear"></div>
 
@@ -184,34 +177,34 @@
 			<nav id="footer-nav" class="clearfix">
 
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="elements.html">Features</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="portfolio-4-columns.html">Portfolio</a></li>
-					<li><a href="contact-us.html">Contact</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="quienes-somos.html">Quiénes Somos</a></li>
+					<li><a href="historia.html">Historia</a></li>
+					<li><a href="responsabilidad-social.html">Eventos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 				
 			</nav><!-- end #footer-nav -->
 
 			<ul class="contact-info">
-				<li class="address">30 South Park Avenue. San Francisco, CA 94108. USA</li>
-				<li class="phone">(123) 456-7890</li>
-				<li class="email"><a href="mailto:contact@companyname.com">contact@companyname.com</a></li>
+				<li class="address">Jr. Francisco Pizarro #860 - Morales</li>
+				<li class="phone">Fijo: (42)522727</li>
+				<li class="email"><a href="mailto:contacto@unigas.com.pe">contacto@unigas.com.pe</a></li>
 			</ul><!-- end .contact-info -->
 			
 		</div><!-- end .three-fourth -->
 
 		<div class="one-fourth last">
 
-			<span class="title">Stay connected</span>
+			<span class="title">Encuentrenos en : </span>
 
 			<ul class="social-links">
 				<li class="twitter"><a href="#">Twitter</a></li>
-				<li class="facebook"><a href="#">Facebook</a></li>
-				<li class="digg"><a href="#">Digg</a></li>
-				<li class="vimeo"><a href="#">Vimeo</a></li>
+				<li class="facebook"><a href="https://www.facebook.com/pages/Unigas-Tarapoto/359706667438081?fref=ts">Facebook</a></li>
+				<!--<li class="digg"><a href="#">Digg</a></li>
+				<li class="vimeo"><a href="#">Vimeo</a></li>-->
 				<li class="youtube"><a href="#">YouTube</a></li>
-				<li class="skype"><a href="#">Skype</a></li>
+				<!--<li class="skype"><a href="#">Skype</a></li>-->
 			</ul><!-- end .social-links -->
 
 		</div><!-- end .one-fourth.last -->
@@ -225,9 +218,9 @@
 	<div class="container">
 
 		<ul>
-			<li>SmartStart &copy; 2012</li>
-			<li><a href="#">Legal Notice</a></li>
-			<li><a href="#">Terms</a></li>
+			<li>Universal GAS S.A. &copy; 2014</li>
+			<!--<li><a href="#">Legal Notice</a></li>
+			<li><a href="#">Terms</a></li>-->
 		</ul>
 
 	</div><!-- end .container -->
@@ -250,6 +243,7 @@
 	<script src="js/jquery.gmap.min.js"></script>
 	<script src="js/jquery.touchSwipe.min.js"></script>
 	<script src="js/custom.js"></script>
+	
 <!--<![endif]-->
 </body>
 </html>
