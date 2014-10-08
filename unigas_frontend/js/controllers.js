@@ -29,3 +29,13 @@ app.controller("FeriaGastronomicaController", function($scope, $http) {
       console.log(data);
     });
 });
+
+app.controller("MissTarapotoController", function($scope, $http) {
+  $http.get('data/miss-tarapoto.json').
+    success(function(data, status, headers, config) {
+      $scope.photos = data;
+    }).
+    error(function(data, status, headers, config) {
+      console.log(data);
+    });
+});
