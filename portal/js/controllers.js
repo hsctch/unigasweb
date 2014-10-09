@@ -1,4 +1,4 @@
-var app = angular.module("ResApp", ['ngAnimate']);
+var app = angular.module("ResApp",[]);
 
 app.controller("AniversarioTarapotoController", function($scope, $http) {
   $http.get('data/aniversario-tarapoto.json').
