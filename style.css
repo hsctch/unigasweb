@@ -160,7 +160,7 @@ video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: -100;
  background: url('images/video/1.jpg') no-repeat;

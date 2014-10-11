@@ -2540,6 +2540,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 		.contact-info .address { background: url(../img/icon-address.png) no-repeat 0 0; }
 
+		.contact-info .hour { background: url(../img/icon-hour.png) no-repeat 2px 0; }
+
 		.contact-info .phone { background: url(../img/icon-phone.png) no-repeat 0 1px; }
 
 		.contact-info .email { background: url(../img/icon-email-2.png) no-repeat 0 4px; }
